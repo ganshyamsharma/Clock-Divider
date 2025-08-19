@@ -1,3 +1,5 @@
+`timescale 1ns/1ps
+
 module clk_divider #(parameter CLK_DIV = 50)    //CLK_DIV = i_clk frequency / (o_clk frequency * 2)
     (                                           //This module will genrate a 1MHz clock from a 100MHz clock
     input i_clk, i_reset,
