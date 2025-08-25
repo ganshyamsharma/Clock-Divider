@@ -1,5 +1,5 @@
 # Clock-Divider
-Synthesizable HDL code to acquire lower clock frequencies from a higher frequency clock.
+Synthesizable HDL code to acquire lower clock frequency from a higher frequency clock.
 ## IO Description
 - i_clk: Input clock (Higher frequency)
 - i_reset: Reset input, will turn the output clk to zero.
